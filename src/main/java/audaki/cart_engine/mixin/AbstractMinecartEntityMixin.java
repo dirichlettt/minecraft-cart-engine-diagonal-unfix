@@ -331,7 +331,8 @@ public abstract class AbstractMinecartEntityMixin extends Entity {
 
         double maxSpeedForThisTick = Math.min(calculateMaxSpeedForThisTick.get(), maxSpeed);
         // Audaki changed the original vanilla behavior for diagonal rails which is silly and stinky
-        // So I'm changing it back
+        // So I'm changing it back >:3
+        // ~ dirichlettt
         // if (isDiagonal || isAscending) {
         //     // Diagonal and Ascending/Descending is 1.4142 times faster, we correct this here
         //     maxSpeedForThisTick = Math.min(maxSpeedForThisTick, 0.7071 * maxSpeed);
